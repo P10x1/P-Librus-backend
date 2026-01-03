@@ -130,7 +130,9 @@ app.get("/verify", (req, res) => {
 // ========================
 // Start serwera
 // ========================
-const PORT = process.env.PORT || 3000;  // Render używa process.env.PORT
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Login działa na http://localhost:${PORT}`));
 
+
 );
+
